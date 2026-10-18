@@ -1,26 +1,61 @@
-<h1 align="center">Hi 👋, I'm Muhtasim Ibteda Shochcho</h1>
-<h3 align="center">Aspiring AI/ML researcher and developer with a passion for creating innovative solutions using machine learning, deep learning, and AI technologies. Skilled in Python, JavaScript, and frameworks like TensorFlow and PyTorch, with experience in fine-tuning LLMs, synthetic data generation, and building interactive AI systems. Proficient in web development with React.js, Express.js, and database management using MySQL and MongoDB. Currently exploring the frontiers of NLP, generative AI, and AI-powered education. Always eager to learn, contribute to open-source projects, and collaborate on impactful AI innovations. Let's build something amazing together! 🚀</h3>
+# Muhtasim Ibteda Shochcho
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=geeky-muhtasim&label=Profile%20views&color=0e75b6&style=flat" alt="geeky-muhtasim" /> </p>
+**AI-Enabled Software Engineer & NLP Researcher** · Dhaka, Bangladesh
 
-- 🔭 I’m currently working on **Center for Computational & Data Sciences as part time research assistant.**
+[Website](https://www.shochcho.dev) · [LinkedIn](https://linkedin.com/in/mtibteda) · [Google Scholar](https://scholar.google.com/citations?user=mBApasAAAAAJ&hl=en) · [Email](mailto:sho25100@gmail.com)
 
-- 👯 I’m looking to collaborate on **any project based on generative ai.**
+I build secure, production-grade systems for the financial sector and study how language models work. At **Bangladesh Finance PLC** I design and ship the software behind the company's move from paper to paperless: digital onboarding, document tracking, audit automation, and an in-house security operations platform. As an applied NLP researcher at the **Center for Computational & Data Sciences (CCDS), IUB**, I work on LLM evaluation for Bangla, AI tutoring, and educational NLP.
 
-- 📫 How to reach me **sho25100@gmail.com**
+Currently seeking **MSc/PhD opportunities** in NLP, Language Modeling, Mechanistic Interpretability, AI in Education, AI in Cybersecurity, and HCI.
 
-- 📄 Know about my experiences [TBA](TBA)
+## Experience
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/mtibteda" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mtibteda" height="30" width="40" /></a>
-</p>
+| Role | Organization | Period |
+| --- | --- | --- |
+| Software Developer (Officer Grade-I), IT Division | Bangladesh Finance PLC | Sep 2025 to present |
+| Research Intern | CCDS, Independent University, Bangladesh | Jan 2025 to present |
+| Software Engineer (Intern) | Bangladesh Finance PLC | Apr 2025 to Aug 2025 |
+| Undergraduate Researcher | CCDS, Independent University, Bangladesh | Sep 2023 to Dec 2024 |
+| Junior ML Engineer (Volunteer) | Omdena Liberia Chapter | Jan 2024 to Jul 2024 |
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+**Education:** BSc in Computer Science and Engineering, Independent University, Bangladesh (2020 to 2024). Thesis: *PACE: Python AI Companion for Enhanced Engagement*, supervised by Dr. Amin Ahsan Ali.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=geeky-muhtasim&show_icons=true&locale=en&layout=compact" alt="geeky-muhtasim" /></p>
+## Publications
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=geeky-muhtasim&show_icons=true&locale=en" alt="geeky-muhtasim" /></p>
+Google Scholar: 32 citations, h-index 2.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=geeky-muhtasim&" alt="geeky-muhtasim" /></p>
+- **SOMAJGYAAN: A Dataset for Evaluating LLMs on Bangla Culture, Social Knowledge, and Low-Resource Language Adaptation**
+  IJCNLP-AACL 2025
+- **Improving User Engagement and Learning Outcomes in LLM-Based Python Tutor: A Study of PACE**
+  CHI EA 2025 · [ACM Digital Library](https://dl.acm.org/doi/10.1145/3706599.3720240)
+- **BD at BEA 2025 Shared Task: MPNet Ensembles for Pedagogical Mistake Identification and Localization in AI Tutor Responses**
+  BEA 2025 · Top-3 in the shared task · [ACL Anthology](https://aclanthology.org/2025.bea-1.102/) · [arXiv](https://arxiv.org/abs/2506.01817)
+- **AlphaBorno at BLP-2025 Task 2: Code Generation with Structured Prompts and Execution Feedback**
+  BLP-2025, IJCNLP-AACL 2025
+- **Fruit Quality Detection and Monitoring System**
+  IEEE ICCSCE 2023 · [IEEE Xplore](https://ieeexplore.ieee.org/document/10237165/)
+
+## Selected engineering work
+
+13 official projects at Bangladesh Finance PLC, among them:
+
+- **AEGIS**: a security operations platform built on Wazuh that brings endpoint telemetry, YARA scanning, firewall logs and Microsoft 365 audit logs into one pipeline, and turns raw alerts into scored, explainable incidents. In office pilot.
+- **eKYC Platform & Shared eKYC Hub**: digital customer onboarding with encrypted records and a maker-checker workflow. Onboarded 10,000+ customers with a 3-minute average KYC time.
+- **Smart Audit Management System**: rule-based audit automation. 60% faster audit cycles, 500+ audit documents processed monthly.
+- **FinX360 Digital Ecosystem**: the platform behind the company's paper-to-paperless transformation.
+- **Smart ICT Risk Inspection Tool**: used across branches for ICT inspections.
+
+## Tech stack
+
+| Area | Tools |
+| --- | --- |
+| Languages | Python, Go, JavaScript/TypeScript, SQL, PL/SQL, C++ |
+| AI / ML | PyTorch, Hugging Face, LangChain, LlamaIndex, RAG, scikit-learn, XGBoost |
+| Backend & Web | FastAPI, NestJS, Node.js, React, Next.js, Tailwind CSS, Flutter |
+| Data | PostgreSQL, Oracle (DBA), MySQL, Redis, vector databases |
+| Security | Wazuh, YARA, Suricata, SIEM correlation, firewall log analysis |
+| Infrastructure | Docker, Kubernetes, Linux, Kafka, RabbitMQ, Celery |
+
+---
+
+Portfolio: [www.shochcho.dev](https://www.shochcho.dev)
