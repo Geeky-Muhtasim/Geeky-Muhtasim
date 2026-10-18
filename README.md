@@ -5,13 +5,13 @@
 <p align="center">
   <a href="https://www.shochcho.dev"><img src="https://img.shields.io/badge/PORTFOLIO-shochcho.dev-0f2420?style=for-the-badge&labelColor=123026" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mtibteda"><img src="https://img.shields.io/badge/LINKEDIN-mtibteda-0f2420?style=for-the-badge&labelColor=123026" alt="LinkedIn" /></a>
-  <a href="https://scholar.google.com/citations?user=mBApasAAAAAJ&hl=en"><img src="https://img.shields.io/badge/GOOGLE_SCHOLAR-32_citations-0f2420?style=for-the-badge&labelColor=123026" alt="Google Scholar" /></a>
+  <a href="https://scholar.google.com/citations?user=mBApasAAAAAJ&hl=en"><img src="https://img.shields.io/badge/GOOGLE_SCHOLAR-34_citations-0f2420?style=for-the-badge&labelColor=123026" alt="Google Scholar" /></a>
   <a href="mailto:sho25100@gmail.com"><img src="https://img.shields.io/badge/EMAIL-sho25100@gmail.com-0f2420?style=for-the-badge&labelColor=123026" alt="Email" /></a>
 </p>
 
 I build secure, production-grade systems for the financial sector and study how language models work. At **Bangladesh Finance PLC** I design and ship the software behind the company's move from paper to paperless. At the **Center for Computational & Data Sciences (CCDS), IUB**, I work on LLM evaluation for Bangla, AI tutoring, and educational NLP.
 
-<img src="assets/character-sheet.svg" width="100%" alt="Character sheet. Stats: 5 publications, 32 citations, h-index 2, 13 official projects, 3 years of research, 1.5 years in industry. Achievements: Top-3 at the BEA 2025 Shared Task; first-author paper at CHI EA 2025; paper at IJCNLP-AACL 2025; selected for SIGCHI Winter School 2024; 10,000+ customers onboarded through the eKYC Platform; 60% faster audit cycles with the Smart Audit Management System." />
+<img src="assets/character-sheet.svg" width="100%" alt="Character sheet. Stats: 5 publications, 34 citations, h-index 2, 13 official projects, 3 years of research, 1.5 years in industry. Achievements: Top-3 at the BEA 2025 Shared Task; first-author paper at CHI EA 2025; paper at IJCNLP-AACL 2025; selected for SIGCHI Winter School 2024; 10,000+ customers onboarded through the eKYC Platform; 60% faster audit cycles with the Smart Audit Management System." />
 
 <img src="assets/quest-log.svg" width="100%" alt="Quest log. Main quest: MSc or PhD in NLP, Language Modeling, Mechanistic Interpretability, AI in Education, AI in Cybersecurity, and HCI. Side quests: AEGIS security operations platform, in pilot; FINIX Super App, in development; Telemedicine Platform, in development; NETSCOPE network traffic visualizer, in design." />
 
