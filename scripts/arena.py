@@ -4,9 +4,11 @@ in the same theme as the other cards. Run daily by .github/workflows/arena.yml.
 
 Standard library only. Reads public data through the GitHub GraphQL API with
 the workflow's GITHUB_TOKEN:
-  - contributions over the last year, the current and longest daily streaks
-  - public repositories and stars on repositories the user owns
-  - the top languages across owned, non-fork repositories, by bytes of code
+  - contributions over the last year, active days, the longest daily streak
+  - public repositories and followers
+  - the top languages: how many owned, non-fork repositories use each as
+    their main language (counting repositories rather than bytes keeps
+    vendored files from crowding out the languages actually written)
 
 Usage: python scripts/arena.py <out.svg>
 """
@@ -44,8 +46,7 @@ query($login: String!) {
       totalCount
       nodes {
         isFork
-        stargazerCount
-        languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } }
+        primaryLanguage { name }
       }
     }
   }
@@ -86,10 +87,10 @@ def streaks(days: list[dict]) -> tuple[int, int]:
 def languages(repos: list[dict]) -> list[tuple[str, float]]:
     total: dict[str, int] = {}
     for r in repos:
-        if r["isFork"]:
+        lang = r["primaryLanguage"]
+        if r["isFork"] or not lang:
             continue
-        for e in r["languages"]["edges"]:
-            total[e["node"]["name"]] = total.get(e["node"]["name"], 0) + e["size"]
+        total[lang["name"]] = total.get(lang["name"], 0) + 1
     s = sum(total.values()) or 1
     top = sorted(total.items(), key=lambda kv: -kv[1])[:6]
     return [(name, size / s) for name, size in top]
@@ -114,9 +115,9 @@ def text(x, y, s, fam="PM", size=14, fill=CREAM, anchor="start", ls=0, opacity=1
 def render(u: dict) -> str:
     cal = u["contributionsCollection"]["contributionCalendar"]
     days = [d for w in cal["weeks"] for d in w["contributionDays"]]
-    current, longest = streaks(days)
+    _, longest = streaks(days)
+    active = sum(1 for d in days if d["contributionCount"] > 0)
     repos = u["repositories"]
-    stars = sum(r["stargazerCount"] for r in repos["nodes"] if not r["isFork"])
     langs = languages(repos["nodes"])
     today = dt.date.today().isoformat()
 
@@ -132,10 +133,10 @@ def render(u: dict) -> str:
     ]
     tiles = [
         ("CONTRIBUTIONS, 1Y", f"{cal['totalContributions']:,}", ""),
-        ("CURRENT STREAK", str(current), "days"),
+        ("ACTIVE DAYS, 1Y", str(active), ""),
         ("LONGEST STREAK", str(longest), "days"),
         ("PUBLIC REPOS", str(repos["totalCount"]), ""),
-        ("STARS EARNED", str(stars), ""),
+        ("FOLLOWERS", str(u["followers"]["totalCount"]), ""),
     ]
     tw, gap = (W - 80 - 4 * 12) / 5, 12
     for i, (label, value, unit) in enumerate(tiles):
@@ -153,17 +154,17 @@ def render(u: dict) -> str:
         p.append(f'<rect x="{x:.1f}" y="196" width="{w:.1f}" height="14" fill="{LANG_COLORS[k % len(LANG_COLORS)]}"/>')
         x += w
     p.append("</g>")
-    p.append(text(40, 186, "TOP LANGUAGES", "PMM", 10.5, SOFT, ls=2))
+    p.append(text(40, 186, "TOP LANGUAGES, BY REPOSITORY", "PMM", 10.5, SOFT, ls=2))
     lx = 40.0
     for k, (name, share) in enumerate(langs):
         color = LANG_COLORS[k % len(LANG_COLORS)]
-        label = f"{name} {share * 100:.1f}%"
+        label = f"{name} {share * 100:.0f}%"
         p.append(f'<rect x="{lx:.1f}" y="222" width="10" height="10" rx="2" fill="{color}"/>')
         p.append(text(round(lx + 16), 231, label, "PM", 12, CREAM))
         lx += 16 + len(label) * 12 * CW + 22
 
     style = f"<style>{font('plex-mono-400.woff2', 'PM')}{font('plex-mono-500.woff2', 'PMM')}</style>"
-    title = f"GitHub arena: {cal['totalContributions']} contributions in the last year, current streak {current} days"
+    title = f"GitHub arena: {cal['totalContributions']} contributions and {active} active days in the last year"
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(title)}">'
         f"<title>{escape(title)}</title>{style}{''.join(p)}</svg>"
